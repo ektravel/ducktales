@@ -1,0 +1,19 @@
+#scoreSpan {
+    float: right;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.nav {
+    background-color: #131A6B;
+    color: #FED652;
+    font-weight: bold;
+    font-size: larger;
+}
+.navbar-brand{
+    float: left;
+}
+
+#navMessage {
+    padding-top:20px;
+}

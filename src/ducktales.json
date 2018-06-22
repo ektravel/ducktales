@@ -21,8 +21,8 @@
     },
     {
       "id": 5,
-      "name": "Goldie",
-      "image": "./assets/images/goldie.jpg"
+      "name": "Frieda",
+      "image": "./assets/images/frieda.png"
     },
     {
       "id": 6,
@@ -37,7 +37,7 @@
     {
       "id": 8,
       "name": "Launchpad",
-      "image": "./assets/images/launchpad.jpg"
+      "image": "./assets/images/launchpad1.jpg"
     },
     {
       "id": 9,

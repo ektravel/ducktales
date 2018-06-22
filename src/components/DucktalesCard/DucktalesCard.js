@@ -4,7 +4,9 @@ import "./DucktalesCard.css";
 const DucktalesCard = props => (
   <div className="card">
     <div className="img-container">
-      <img alt={props.name} src={props.image} />
+      <a onClick={() => props.clickDuck(props.id)}>
+        <img className = "cardImg" alt={props.name} src={props.image} />
+      </a>
     </div>
     <div className="content">
       <ul>
@@ -13,9 +15,6 @@ const DucktalesCard = props => (
         </li>
       </ul>
     </div>
-    {/* <span onClick={() => props.removeFriend(props.id)} className="remove">
-      𝘅
-    </span> */}
   </div>
 );
 

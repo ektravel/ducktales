@@ -19,11 +19,12 @@ class App extends Component {
 clickDuck = id => {
   //setState method is used to update a component's state
   this.state.score = this.state.score + 1;
-  const updatedState = this.state;
+
+  // const updatedState = this.state;
 
 
-  this.setState({ updatedState });
-  //this.setState({score: this.state.score + 1});
+  // this.setState({ updatedState });
+  // this.setState({score: this.state.score + 1});
 
   //if the same card is clicked twice, set the score back to 0
 
@@ -33,10 +34,10 @@ clickDuck = id => {
 //Map over this.state.ducktales and render a DucktalesCard component for each duck object
 render() {
   return (
-    <div className = "container">
-    <Navbar/>
+    <div>
+    <Navbar message = {this.state.message} score = {this.state.score} topscore = {this.state.topscore}/>
       <Wrapper>
-        <Title>Ducktales Click Game </Title>
+        <Title><img src = "./assets/images/gameTR.png"/> </Title>
         {this.state.ducktales.map(duck => (
           <DucktalesCard
           clickDuck = {this.clickDuck}

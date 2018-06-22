@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Bouncer Beagle",
+      "image": "./assets/images/bouncerBeagle.png"
+    },
+    {
+      "id": 2,
+      "name": "Dewey",
+      "image": "./assets/images/dewey.png"
+    },
+    {
+      "id": 3,
+      "name": "Donald Duck",
+      "image": "./assets/images/donald.png"
+    },
+    {
+      "id": 4,
+      "name": "Doofus",
+      "image": "./assets/images/doofus.png"
+    },
+    {
+      "id": 5,
+      "name": "Goldie",
+      "image": "./assets/images/goldie.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Gyro",
+      "image": "./assets/images/gyro.png"
+    },
+    {
+      "id": 7,
+      "name": "Huey",
+      "image": "./assets/images/huey.png"
+    },
+    {
+      "id": 8,
+      "name": "Launchpad",
+      "image": "./assets/images/launchpad.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Louie",
+      "image": "./assets/images/louie.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Magica",
+      "image": "./assets/images/magica.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Scrooge",
+      "image": "./assets/images/scrooge.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Webby",
+      "image": "./assets/images/webby.jpg"
+    }
+  ]
+  

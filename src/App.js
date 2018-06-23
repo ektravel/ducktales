@@ -44,8 +44,19 @@ clickDuck = id => {
       //if NO => update the score +1 and re-shuffle the array
   if (this.state.clickedID.indexOf(id) === -1 ){
     let newArray = [...this.state.clickedID];
-    let newDucktales = [...this.state.ducktales];
     newArray.push(id);
+
+    let newDucktales = [...this.state.ducktales];
+
+    if (newArray.length === ducktales.length){
+      this.setState({
+        score: this.state.score + 1,
+        clickedID: newArray,
+        ducktales: this.shuffleData(newDucktales), 
+        message: "You won! Congratulations!",
+        topscore: this.getTopscore(this.state.score)
+      })
+    } else {
     //setState method is used to update a component's state
     this.setState({
       score: this.state.score + 1,
@@ -54,6 +65,7 @@ clickDuck = id => {
       message: "Well done! That was correct!",
       topscore: this.getTopscore(this.state.score)
     })
+    }
     
   } else {
     //if it has been clicked before => reset the score and restart the game
